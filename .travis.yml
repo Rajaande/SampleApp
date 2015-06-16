@@ -3,4 +3,4 @@ jdk:
   - oraclejdk8
 before_install: sudo pip install codecov
 after_success: codecov
-install: mvn clean install
+install: mvn clean package 
